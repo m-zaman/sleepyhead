@@ -23,6 +23,7 @@
 	font-size:22px;
 	/*font-weight: lighter;*/
 	color:#211359;
+	cursor: pointer;
 }
 
 .device-item p {
@@ -34,8 +35,10 @@
 .add-device {
 	height:150px;
 	cursor: pointer;
+	color: #adadad;
 	box-shadow:none;
 	-webkit-box-shadow:none;
+	opacity:1;
 }
 
 .add-device-item {
@@ -43,8 +46,12 @@
 	height:150px;
 }
 
+.add-device:hover {
+	opacity:0.5;
+}
+
 .switch-container {
-	margin-top:-48px;
+	margin-top:-75px;
 	margin-left:95%;
 }
 
