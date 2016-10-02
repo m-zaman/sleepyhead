@@ -1,0 +1,75 @@
+.device {
+	border:none;
+	border-radius:none;
+	-webkit-box-shadow: none;
+	box-shadow:none;
+}
+
+.device-item {
+	height: 150px;
+	padding-bottom:45px;
+	background-color:#efefef;
+	border:none;
+}
+
+.device-item img {
+	margin-top:20px;
+	margin-left:20px;
+}
+
+.device-item h2 {
+	margin-top:-70px;
+	margin-left: 140px;
+	font-size:22px;
+	/*font-weight: lighter;*/
+	color:#211359;
+}
+
+.device-item p {
+	margin-left: 140px;
+	margin-right:60px;
+	color:#505050;
+}
+
+.add-device {
+	height:150px;
+	cursor: pointer;
+	box-shadow:none;
+	-webkit-box-shadow:none;
+}
+
+.add-device-item {
+	border: dashed 4px #eee;
+	height:150px;
+}
+
+.switch-container {
+	margin-top:-48px;
+	margin-left:95%;
+}
+
+.header {
+	padding: 50px 0px 75px 0px;
+}
+
+.header h1 {
+	font-weight:700;
+	font-size:24px;
+	margin-top:0px;
+}
+
+.header a {
+	font-weight:600;
+	border-bottom: 2px solid #054E66;
+}
+
+.header a:hover {
+	border-bottom: 2px solid #054E66;
+	text-decoration:none;
+	opacity:0.8;
+}
+
+.header p {
+	color: #054E66;
+	margin-top:5px;
+}
